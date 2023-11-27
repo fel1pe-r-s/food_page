@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  width: 210px;
+  height: 292px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-dark-300, #000204);
+  background: var(--dark-dark-200, #00070a);
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 277px;
+    height: 448px;
+  }
+}
+.card img {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+.card .counter {
+  display: flex;
+  width: 100px;
+  height: 32px;
+  padding: 4px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.card button {
+  display: flex;
+  width: 162px;
+  height: 32px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 5px;
+  background: var(--tints-tomato-100, #750310);
+  color: var(--light-light-100, #fff);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.card .counter button img {
+  width: 24px;
+  height: 24px;
+}
+
+.counter button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
