@@ -20,6 +20,6 @@ export default createGlobalStyle`
   width: 100vw;
   height: 100vh;  
   background: ${({ theme }) => theme.COLORS.Dark400};
-  color: $${({ theme }) => theme.COLORS.Light100};
+  color: ${({ theme }) => theme.COLORS.Light100};
 }
 `;
